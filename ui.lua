@@ -1,3 +1,14 @@
+-- Get the player's username
+local player = game.Players.LocalPlayer
+local username = player.Name
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "Blatant.cc",
+Text = "Thank you for executing Blatant.cc ".. username;
+Icon = "rbxassetid://16674227228",
+Duration = 10,
+})
+
 local TweenService = game:GetService("TweenService")
 	local UserInputService = game:GetService("UserInputService")
 	local UIBUTTON = Instance.new("ScreenGui")
