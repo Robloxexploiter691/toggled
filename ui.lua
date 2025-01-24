@@ -5,7 +5,7 @@ local username = player.Name
 game:GetService("StarterGui"):SetCore("SendNotification",{
 Title = "Blatant.cc",
 Text = "Thank you for executing Blatant.cc ".. username;
-Icon = "rbxassetid://16674227228",
+Icon = "rbxassetid://114125211876798",
 Duration = 10,
 })
 
